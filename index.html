@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Streets Have A Storii</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Arial Black', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #111;
+      padding: 2rem;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+    .highlight {
+      color: #ff3b3b;
+    }
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .package {
+      background: #111;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 59, 59, 0.4);
+    }
+    .price {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+    .strike {
+      text-decoration: line-through;
+      opacity: 0.6;
+      margin-right: 10px;
+    }
+    button {
+      background: #ff3b3b;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #ff5c5c;
+    }
+    .portfolio {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .portfolio img, .portfolio video {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .about {
+      background: #111;
+      padding: 2rem;
+    }
+    .contact {
+      background: #111;
+      padding: 2rem;
+    }
+    form input, form textarea {
+      width: 80%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border-radius: 6px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    The Streets Have A Storii
+  </header>
+
+  <section>
+    <h1 class="highlight">15 Minutes Can Change Everything</h1>
+    <p>Stop blending in. Start standing out. Your story deserves bold images that make people stop scrolling.</p>
+  </section>
+
+  <section class="packages">
+    <div class="package">
+      <h2>Headshot Happy Hour</h2>
+      <p>15 minutes of bold headshots + full-body shots. Perfect for busy creatives.</p>
+      <div class="price"><span class="strike">$200</span> $125</div>
+      <p>Includes 5 strong images</p>
+      <button>Book Now</button>
+    </div>
+    <div class="package">
+      <h2>Brand Shoot</h2>
+      <p>45 minutes with multiple outfits — headshots + full body for your brand presence.</p>
+      <div class="price">$300</div>
+      <p>Includes 15 strong images</p>
+      <button>Book Now</button>
+    </div>
+    <div class="package">
+      <h2>Events</h2>
+      <p>Candid & Instagrammable moments that capture the vibe of your event.</p>
+      <div class="price">Price: TBD</div>
+      <p>Includes 30 strong images</p>
+      <button>Inquire</button>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <img src="images/sample1.jpg" alt="Sample Work">
+    <img src="images/sample2.jpg" alt="Sample Work">
+    <img src="images/sample3.jpg" alt="Sample Work">
+    <video src="videos/sample1.mp4" controls></video>
+    <video src="videos/sample2.mp4" controls></video>
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I move fast because I know you don’t have time to waste. My work is built for busy creatives who need images that SELL — bold, scroll-stopping shots that capture attention in seconds. No stress. No fluff. Just results that make your brand unforgettable.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name"><br>
+      <input type="email" placeholder="Your Email"><br>
+      <textarea placeholder="Your Message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
